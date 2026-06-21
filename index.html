@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+        <title>CSS</title>
+        <style type="text/css" media="all">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .navigation-bar {
+            background-color: skyblue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            }
+            
+            li,h1 {
+                text-decoration: none;
+                display: inline;
+                padding: 5px;
+            }
+            
+            .subscribe-button {
+                background-color: #c42424;
+                padding:8px;
+                border: none;
+                margin: 5px;
+                color: white;
+                font-size: 18px;
+                text-align: center;
+                border-radius: 2px;
+                transition: 
+                background-color 0.25s ease,
+                color 0.25s ease,
+                padding 0.25s ease;
+            }
+            
+            .subscribe-button:hover {
+                background-color: gray;
+                color: black;
+                padding: 10px;
+                font-size: 18px;
+            }
+            
+            .join-button {
+                background-color: white;
+                color: #0087fa;
+                border: 2px solid #0087fa;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-right: 16px;
+                padding-left: 16px;
+                margin: 5px;
+                font-size: 16px;
+                text-align: center;
+                border-radius: 2px;
+                transition: 
+                background-color 0.3s ,
+                color 0.25s;
+                ;
+            }
+            
+            .join-button:hover {
+                background-color: #0087fa;
+                color: white;
+            }
+            
+            .Tweter-button {
+                background-color: #00c0fa;
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 18px;
+                padding-left: 18px;
+                font-size: 16px;
+                font-weight: bold;
+                margin: 5px;
+                border-radius: 25px;
+                border: none;
+            }
+            
+            .Tweter-button:hover{
+                
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header class="navigation-bar">
+            <h1>Asyntaxif</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Info</li>
+            </ul>
+        </header>
+        <main>
+            <button type="submit" class="subscribe-button">SUBSCRIBE</button>
+            <button class="join-button">Join</button>
+            <button class="Tweter-button">Tweter</button>
+            <button><a href="video.html">Video</a></button>
+        </main>
+    </body>
+</html>
